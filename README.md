@@ -13,7 +13,7 @@ Technology stack:
 - C#
 - Windows Form
 - Visual Studio
-- 
+
 To run this application, you need to have Visual Studio installed on your system. You can clone the repository and run it from Visual Studio IDE.
 
 Feel free to use and modify the code as per your requirements. Contributions are welcome!
