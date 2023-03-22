@@ -4,14 +4,16 @@ It allows users to perform basic arithmetic operations like addition, subtractio
 
 Features:
 
-Simple user interface
-Basic arithmetic operations
-Error handling for divide-by-zero scenario
+- Simple user interface
+- Basic arithmetic operations
+- Error handling for divide-by-zero scenario
+
 Technology stack:
 
-C#
-Windows Form
-Visual Studio
+- C#
+- Windows Form
+- Visual Studio
+- 
 To run this application, you need to have Visual Studio installed on your system. You can clone the repository and run it from Visual Studio IDE.
 
 Feel free to use and modify the code as per your requirements. Contributions are welcome!
