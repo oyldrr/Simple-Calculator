@@ -51,6 +51,7 @@
             // button0
             // 
             this.button0.Location = new System.Drawing.Point(26, 348);
+            this.button0.Margin = new System.Windows.Forms.Padding(3, 3, 3, 25);
             this.button0.Name = "button0";
             this.button0.Size = new System.Drawing.Size(168, 56);
             this.button0.TabIndex = 0;
@@ -161,11 +162,14 @@
             // sonuc
             // 
             this.sonuc.Font = new System.Drawing.Font("Microsoft Sans Serif", 28.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
+            this.sonuc.ForeColor = System.Drawing.SystemColors.WindowText;
             this.sonuc.Location = new System.Drawing.Point(26, 33);
             this.sonuc.Name = "sonuc";
+            this.sonuc.ReadOnly = true;
+            this.sonuc.RightToLeft = System.Windows.Forms.RightToLeft.Yes;
+            this.sonuc.ScrollBars = System.Windows.Forms.ScrollBars.Horizontal;
             this.sonuc.Size = new System.Drawing.Size(340, 61);
             this.sonuc.TabIndex = 11;
-            this.sonuc.TextAlign = System.Windows.Forms.HorizontalAlignment.Right;
             // 
             // buttonMines
             // 
@@ -220,6 +224,7 @@
             // buttonDEL
             // 
             this.buttonDEL.Location = new System.Drawing.Point(286, 100);
+            this.buttonDEL.Margin = new System.Windows.Forms.Padding(3, 3, 25, 3);
             this.buttonDEL.Name = "buttonDEL";
             this.buttonDEL.Size = new System.Drawing.Size(80, 56);
             this.buttonDEL.TabIndex = 17;
@@ -231,7 +236,9 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(399, 442);
+            this.AutoSize = true;
+            this.AutoSizeMode = System.Windows.Forms.AutoSizeMode.GrowAndShrink;
+            this.ClientSize = new System.Drawing.Size(401, 439);
             this.Controls.Add(this.buttonDEL);
             this.Controls.Add(this.buttonEquals);
             this.Controls.Add(this.buttonPlus);
@@ -250,7 +257,9 @@
             this.Controls.Add(this.button2);
             this.Controls.Add(this.button1);
             this.Controls.Add(this.button0);
+            this.MaximizeBox = false;
             this.Name = "Form1";
+            this.ShowInTaskbar = false;
             this.SizeGripStyle = System.Windows.Forms.SizeGripStyle.Hide;
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Hesap Makinesi";
