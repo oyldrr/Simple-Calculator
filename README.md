@@ -17,3 +17,8 @@ Technology stack:
 To run this application, you need to have Visual Studio installed on your system. You can clone the repository and run it from Visual Studio IDE.
 
 Feel free to use and modify the code as per your requirements. Contributions are welcome!
+
+
+![9d8b9ae8-1b1c-4c89-a1fa-569f0870e694](https://github.com/user-attachments/assets/ad8a71be-6ff3-43ff-a383-0d119ba8b4e4)
+![5c4804da-1d34-465c-bcd8-f6b9fdc0001b](https://github.com/user-attachments/assets/5974b472-0288-4be9-93e4-e23f651c4f37)
+
